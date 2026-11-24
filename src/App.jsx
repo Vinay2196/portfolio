@@ -68,13 +68,13 @@ const PERSONAL_INFO = {
   subRole: 'Node.js, MySQL Optimization & AI Workflow Automation',
   tagline:
     'Architecting high-throughput backend APIs, optimizing heavy relational databases, and building intelligent workflow automations with 5+ years of production experience.',
-  location: 'Nadiad, Gujarat, India (Open to Relocation / UAE & Remote)',
+  location: 'Nadiad, Gujarat, India (Open to Relocation / Remote)',
   email: 'vinaydhobi96@gmail.com',
   phone: '+91 7383209117',
   github: 'https://github.com/Vinay2196',
   githubHandle: 'github.com/Vinay2196',
-  linkedin: 'https://www.linkedin.com/in/vinay-dhobi-9ab8b1186',
-  linkedinHandle: 'linkedin.com/in/vinay-dhobi-9ab8b1186',
+  linkedin: 'https://www.linkedin.com/in/vinaydhobi',
+  linkedinHandle: 'linkedin.com/in/vinaydhobi',
   experienceYears: '5+',
   resumePath: '/Vinay_Dhobi_Resume.pdf',
   web3formsKey: 'c37204ac-d1b4-4647-8b7b-71da8bf24295'
@@ -377,7 +377,7 @@ const EXPERIENCE = [
     role: 'Freelance Senior PHP & Full-Stack Developer',
     company: 'Independent Consulting & Automation',
     period: 'May 2025 — Present',
-    location: 'Remote (India / UAE Clients)',
+    location: 'Remote (India & Global Clients)',
     bullets: [
       'Engineered custom web applications, bespoke PHP/Node.js backends, and AI-powered workflow automations (n8n, OpenAI, Google Workspace).',
       'Designed high-throughput REST APIs with JWT authentication and integrated payment gateways (Stripe, Razorpay).',
@@ -568,6 +568,8 @@ export default function App() {
             </a>
             <a
               href={PERSONAL_INFO.resumePath}
+              target="_blank"
+              rel="noopener noreferrer"
               download="Vinay_Dhobi_Resume.pdf"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-xs transition-all shadow-lg shadow-emerald-500/20"
             >
@@ -635,7 +637,7 @@ export default function App() {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs font-medium">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                Available for Senior Backend / Full-Stack Roles (India, UAE & Remote)
+                Available for Senior Backend / Full-Stack Roles (India & Remote)
               </div>
 
               <div className="space-y-3">
@@ -1143,8 +1145,8 @@ export default function App() {
                       <option value="Senior Backend / Full-Time Role (India / Remote)">
                         Senior Backend / Full-Time Role (India / Remote)
                       </option>
-                      <option value="UAE Relocation / On-Site Opportunity">
-                        UAE Relocation / On-Site Opportunity
+                      <option value="Relocation / On-Site Opportunity (India)">
+                        Relocation / On-Site Opportunity (India)
                       </option>
                       <option value="Freelance Web / API Development">
                         Freelance Web / API Development
