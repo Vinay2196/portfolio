@@ -525,7 +525,7 @@ export default function App() {
                 {PERSONAL_INFO.shortName}
               </span>
               <span className="text-[11px] font-mono text-emerald-400">
-                backend.engineer
+                Backend Engineer/Full Stack Developer
               </span>
             </div>
           </button>
